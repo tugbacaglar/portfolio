@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tuğba Çağlar - Software Engineer Portfolio">
+    <title>Tuğba Çağlar | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <div class="logo">TC.</div>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#club">Club</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="dark-toggle" id="darkToggle">🌙</button>
+</nav>
+
+<section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+        <div class="hero-badge">✦ Software Engineering</div>
+        <h1>Tuğba<br><span>Çağlar</span></h1>
+        <p class="subtitle">3rd Year Student · Web Developer · Design Enthusiast</p>
+        <div class="hero-btns">
+            <a href="#projects" class="btn-primary">View My Projects</a>
+            <a href="#contact" class="btn-secondary">Get in Touch</a>
+        </div>
+    </div>
+    <div class="hero-deco">
+        <div class="deco-circle c1"></div>
+        <div class="deco-circle c2"></div>
+        <div class="deco-circle c3"></div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">01</span>
+            <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>Hello! 👋</h3>
+                <p>I am Tuğba Çağlar — a software engineering student passionate about modern web technologies. Writing code, designing, and building digital products is both my career goal and my passion.</p>
+                <p>Besides my technical skills, I am also interested in photo editing, content creation, and digital design. I am improving my foreign language skills to pursue international opportunities.</p>
+                <div class="skills-list">
+                    <span class="skill-tag">HTML5 & CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">PHP & MySQL</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">OMNeT++</span>
+                    <span class="skill-tag">Information Security</span>
+                    <span class="skill-tag">Software Testing</span>
+                </div>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card"><div class="number">3+</div><div class="label">Years of Education</div></div>
+                <div class="stat-card"><div class="number">3</div><div class="label">Projects</div></div>
+                <div class="stat-card"><div class="number">5+</div><div class="label">Technologies</div></div>
+                <div class="stat-card"><div class="number">∞</div><div class="label">Curiosity</div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">02</span>
+            <h2 class="section-title">My Projects</h2>
+        </div>
+
+        <div class="projects-grid" id="projects-container">
+
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A personal portfolio website designed and developed to showcase my projects, skills, and experience.
+                    Built with HTML, CSS, JavaScript, and PHP, featuring dynamic project loading and a responsive design.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">PHP</span>
+                </div>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Client-Server Application</h3>
+                <p>
+                    A client-server application that enables communication between a client and a server over a network.
+                    It demonstrates request-response architecture and data exchange over TCP/IP.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Networking</span>
+                    <span class="tech-tag">Client-Server Model</span>
+                    <span class="tech-tag">Socket Programming</span>
+                </div>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Web Security Analysis Tool</h3>
+                <p>
+                    A web security analysis tool designed to detect common vulnerabilities and security issues in websites.
+                    It helps identify potential risks and improve overall web application security.
+                </p>
+                <div class="tech-tags">
+                    <span class="tech-tag">Cyber Security</span>
+                    <span class="tech-tag">Web Analysis</span>
+                    <span class="tech-tag">Security Testing</span>
+                </div>
+                <a href="#" class="project-link">View Tool →</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">03</span>
+            <h2 class="section-title">Photo Gallery</h2>
+        </div>
+        <div class="slider-container">
+           <div class="slides">
+    <div class="slide s1">
+        <img src="images/design.jpg" alt="Digital Design Works">
+    </div>
+
+    <div class="slide s2">
+        <img src="images/coding.jpg" alt="Coding Moments">
+    </div>
+
+    <div class="slide s3">
+        <img src="images/event.jpg" alt="Events & Conferences">
+    </div>
+</div>
+            <button class="slider-btn prev">&#8249;</button>
+            <button class="slider-btn next">&#8250;</button>
+        </div>
+    </div>
+</section>
+
+<section id="goals">
+    <div class="container">
+        <h2>My Goals</h2>
+        <p>
+            My main goal is to become a skilled full-stack developer by building real-world, scalable and modern web applications.
+            I also aim to strengthen my expertise in cybersecurity to develop secure and reliable systems.
+            In addition, I want to improve my international communication skills and work in global tech environments.
+            I am also passionate about UI/UX design and creating user-friendly, visually appealing digital products.
+        </p>
+    </div>
+</section>
+
+<section id="certificates">
+    <div class="container">
+        <h2>Certificates</h2>
+        <p>
+            Web Development (HTML, CSS, JavaScript), Python Programming, Information Security Fundamentals,
+            Database Management (MySQL, SQL), and Software Testing.
+        </p>
+    </div>
+</section>
+
+<section id="club">
+    <div class="container">
+        <h2>Club & Events</h2>
+        <p>
+            I am an active member of the CODE (Club of Developer Engineers) at my university.
+            I contributed to the organization and preparation of several major events including Zirve and Kariyer Fest.
+            I also took part in planning, coordination, and content preparation processes for various technical events,
+            workshops, and hackathons.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Email: tugbacaglarrr7@gmail.com</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Tuğba Çağlar — coded with ❤️.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
